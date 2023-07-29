@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Prince Dance Academy
+    block scripts
+    block style 
+  body
+    nav#navbar.top 
+       ul 
+            div#logo 
+                img(src="/static/img/logo.png")
+                | PDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info ]
+            li #[a(href="/contact") Contact]
+    block content
+    footer#footer 
+        | Copyright © 2019 PrinceDanceAcademy.com | All right reserved
