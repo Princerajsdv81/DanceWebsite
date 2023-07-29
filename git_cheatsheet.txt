@@ -12,7 +12,8 @@ touch .gitignore
 
 git commit -m "initial commit"
 
- git status
+ git status     // On branch master
+nothing to commit, working tree clean   it means every theing is ready to go
 
  git remote add origin git@github.com:Princerajsdv81/DanceWebsite.git  //go to github and in daceWebsite click on ssh then copy address and past it.
 
