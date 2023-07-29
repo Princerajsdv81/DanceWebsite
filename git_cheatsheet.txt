@@ -1,0 +1,29 @@
+git config --global user.name Prince
+
+git config --global user.email "princerajsdv81.com"
+
+ git config --global user.name "My code"
+
+touch .gitignore
+
+ git init
+
+ git add .
+
+git commit -m "initial commit"
+
+ git status
+
+ git remote add origin git@github.com:Princerajsdv81/DanceWebsite.git  //go to github and in daceWebsite click on ssh then copy address and past it.
+
+ git push origin master  // it will failed because it is asking giving access ssh key. for this see below steps.
+
+// go to setting of our github account then ssh , then create new ssh then give any name and in the key section past, The key fingerprint is: obtain after running below code. the click on Ok.
+           Or to get the key simply use command    cat  /c/Users/princ/.ssh/id_ed25519.pub
+
+
+ssh-keygen -t ed25519 -C "princerajsdv81@gmail.com" ////How to Generate SSH Keys for GitHub
+
+
+git push origin master //then our code is pushed to github 
+
